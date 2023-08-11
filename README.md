@@ -1,6 +1,25 @@
-# Getting Started with Create React App
+### Features
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Search multiple keywords in docx and pdf file
+- Check CV similarity present in folder
+- Google Authentication (by Firebase)
+
+# cv_analysis_react
+ CV Analysis Tool - React Front-end
+
+React Front-End for CV Analysis Tool with @mui/material UI Toolkit and Google Authentication
+
+The React-based front-end for the CV Analysis Tool enhances user interaction with the existing Python utility. Leveraging the @mui/material UI toolkit, the front-end provides an intuitive and visually appealing interface that seamlessly integrates with the tool's powerful features. Google Authentication through Firebase ensures secure access, allowing users to efficiently analyze, manage, and compare CVs while maintaining data protection.
+
+Key Features:
+
+ 1. User Authentication with Google: Integrate Google Authentication via Firebase, enabling users to log in securely using their Google credentials and access the CV Analysis Tool seamlessly.
+
+ 2. Keyword Search Interface: Implement an intuitive keyword search interface using @mui/material components. Users can input search terms to trigger CV analysis, enabling efficient extraction of relevant information from various CVs.
+
+ 3. CV Similarity Visualization: Create an interactive visualization component that displays CV similarities. This visual representation aids users in identifying overlaps and patterns in skills, work history, and other attributes across CVs.
+
+By combining the capabilities of React, @mui/material, and Google Authentication, the CV Analysis Tool's front-end enhances user engagement and accessibility. Users involved in talent acquisition, recruitment, or HR management can efficiently manage and assess CVs, leveraging the power of Python-driven analysis with the added benefits of a user-centric and secure interface.
 
 ## Available Scripts
 
@@ -41,30 +60,4 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
